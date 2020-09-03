@@ -1,0 +1,40 @@
+div.imagen-slider{
+    height: 100vh;
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.imagen div img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 2px #e1e1e1;
+    transition: .5s all ease;
+    border-radius: 4px;
+}
+
+.imagen div img:hover{
+    transform: scale(1.15,1.15);
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.iconos li a{
+    padding: 15px;
+    font-size: 40px;
+}
+
+.footer-classic .footer-inner-1{
+    padding: 90px 0 30px;
+}
